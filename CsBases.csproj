@@ -10,7 +10,8 @@
   <Using Include="System.Console" Static="true" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Fundamentals\" />
+    <Folder Include="Fundamentals\02-Tipos-Basicos\" />
+    <Folder Include="Fundamentals\05-Patron-Adaptador\" />
   </ItemGroup>
   
 </Project>

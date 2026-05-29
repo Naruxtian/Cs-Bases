@@ -1,5 +1,4 @@
-﻿
-using CsBases.Fundamentals;
+﻿using CsBases.Fundamentals;
 
 class Program
 {
@@ -7,24 +6,16 @@ class Program
     {
         WriteLine("Hello, World!");
 
-        //Declaración explicita
-        int quantity = 5;
-        string message = "Hello, World!";
-        decimal price = 19.99m;
-        WriteLine($"Quantity: {quantity}, Message: {message}, Price: {price:C}");
 
-        //Declaración implícita
-        var grettings = "Hola";
-        var porcentage = 20.00m;
-        WriteLine($"Grettings: {grettings}, Porcentage: {porcentage}%");
-        
         var Laptop = new Product("Laptop", 1200);
         WriteLine(Laptop.GetDescription());
 
         var Soporte = new ServiceProduct("Soporte técnico", 300, 30);
         WriteLine(Soporte.GetDescription());
 
-
+        var product = new Product("Mouse gamer", 300);
+        var productDto = ProductAdapter.ToDto(product);
+        WriteLine($"{productDto.Name} - {productDto.Price:c} - Código: {productDto.Code}");
 
     }
 }
