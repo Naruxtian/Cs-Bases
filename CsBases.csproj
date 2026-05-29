@@ -14,6 +14,7 @@
     <Folder Include="Fundamentals\05-Patron-Adaptador\" />
     <Folder Include="Fundamentals\06-Inyeccion-dependencias\" />
     <Folder Include="Fundamentals\07-Metodos-Asincronos\" />
+    <Folder Include="Fundamentals\08-Atributos\" />
   </ItemGroup>
   
 </Project>

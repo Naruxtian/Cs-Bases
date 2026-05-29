@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsBases")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1112e443dcc703c66a75aae2c7621e7fdd40ec55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2f3629cf359cd55a3da90686e1afa16ff60df00")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsBases")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsBases")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
